@@ -1,0 +1,85 @@
+:root {
+  /* Client Fonts */
+  --my-brand-typeface: "ChlaraTypeface";
+  --my-plain-typeface: "Montserrat";
+  --my-title-font: "Montserrat";
+  --my-plain-font: system-ui;
+  
+  /* Reference Font Variables */
+  --md-ref-typeface-brand: var(--my-brand-typeface);
+  --md-ref-typeface-plain: var(--my-plain-typeface);
+  --md-ref-weight-bold: 700;
+  --md-ref-weight-medium: 500;
+  --md-ref-weight-regular: 400;
+
+  /* Global Font Variables */
+  --md-sys-typescale-body-font: var(--my-plain-font);
+  --md-sys-typescale-display-font: var(--my-brand-typeface);
+  --md-sys-typescale-headline-font: var(--my-headline-font);
+  --my-sys-typescale-label-font: var(--my-plain-font);
+  --md-sys-typescale-title-font: var(--my-title-font);
+
+  /* Material Design Default Typescale */
+  --md-sys-typescale-body-large-font: var(--md-sys-typescale-body-font);
+  --md-sys-typescale-body-large-line-height: 1.5;
+  --md-sys-typescale-body-large-size: 1.125rem;
+  --md-sys-typescale-body-large-weight: 400;
+  --md-sys-typescale-body-medium-font: var(--md-sys-typescale-body-font);
+  --md-sys-typescale-body-medium-line-height: 1.5;
+  --md-sys-typescale-body-medium-size: 1rem;
+  --md-sys-typescale-body-medium-weight: 400;
+  --md-sys-typescale-body-small-font: var(--md-sys-typescale-body-font);
+  --md-sys-typescale-body-small-line-height: 1.5;
+  --md-sys-typescale-body-small-size: 0.875rem;
+  --md-sys-typescale-body-small-weight: 400;
+  --md-sys-typescale-display-large-font: var(--md-sys-typescale-display-font);
+  --md-sys-typescale-display-large-line-height: 1.2;
+  --md-sys-typescale-display-large-size: 3rem;
+  --md-sys-typescale-display-large-weight: 400;
+  --md-sys-typescale-display-medium-font: var(--md-sys-typescale-display-font);
+  --md-sys-typescale-display-medium-line-height: 1.2;
+  --md-sys-typescale-display-medium-size: 2.25rem;
+  --md-sys-typescale-display-medium-weight: 400;
+  --md-sys-typescale-display-small-font: var(--md-sys-typescale-display-font);
+  --md-sys-typescale-display-small-line-height: 1.2;
+  --md-sys-typescale-display-small-size: 1.5rem;
+  --md-sys-typescale-display-small-weight: 400;
+  --md-sys-typescale-headline-large-font: var(--md-sys-typescale-headline-font);
+  --md-sys-typescale-headline-large-line-height: 1.2;
+  --md-sys-typescale-headline-large-size: 2.25rem;
+  --md-sys-typescale-headline-large-weight: 700;
+  --md-sys-typescale-headline-medium-font: var(--md-sys-typescale-headline-font);
+  --md-sys-typescale-headline-medium-line-height: 1.2;
+  --md-sys-typescale-headline-medium-size: 1.5rem;
+  --md-sys-typescale-headline-medium-weight: 700;
+  --md-sys-typescale-headline-small-font: var(--md-sys-typescale-headline-font);
+  --md-sys-typescale-headline-small-line-height: 1.2;
+  --md-sys-typescale-headline-small-size: 1.125rem;
+  --md-sys-typescale-headline-small-weight: 700;
+  --md-sys-typescale-label-large-font: var(--my-sys-typescale-label-font);
+  --md-sys-typescale-label-large-line-height: 1.5;
+  --md-sys-typescale-label-large-size: 1.125rem;
+  --md-sys-typescale-label-large-weight: 500;
+  --md-sys-typescale-label-large-weight-prominent: 700;
+  --md-sys-typescale-label-medium-font: var(--my-sys-typescale-label-font);
+  --md-sys-typescale-label-medium-line-height: 1.5;
+  --md-sys-typescale-label-medium-size: 1rem;
+  --md-sys-typescale-label-medium-weight: 500;
+  --md-sys-typescale-label-medium-weight-prominent: 700;
+  --md-sys-typescale-label-small-font: var(--my-sys-typescale-label-font);
+  --md-sys-typescale-label-small-line-height: 1.5;
+  --md-sys-typescale-label-small-size: 0.875rem;
+  --md-sys-typescale-label-small-weight: 500;
+  --md-sys-typescale-title-large-font: var(--md-sys-typescale-title-font);
+  --md-sys-typescale-title-large-line-height: 1.2;
+  --md-sys-typescale-title-large-size: 2.25rem;
+  --md-sys-typescale-title-large-weight: 700;
+  --md-sys-typescale-title-medium-font: var(--md-sys-typescale-title-font);
+  --md-sys-typescale-title-medium-line-height: 1.2;
+  --md-sys-typescale-title-medium-size: 1.5rem;
+  --md-sys-typescale-title-medium-weight: 700;
+  --md-sys-typescale-title-small-font: var(--md-sys-typescale-title-font);
+  --md-sys-typescale-title-small-line-height: 1.2;
+  --md-sys-typescale-title-small-size: 1.125rem;
+  --md-sys-typescale-title-small-weight: 700;
+}
