@@ -1,20 +1,20 @@
 :root {
   /* Client Fonts */
-  --my-brand-typeface: "ChlaraTypeface";
-  --my-plain-typeface: "Montserrat";
-  --my-title-font: "Montserrat";
+  --my-brand-font: 'Open Sans';
+  --my-headline-font: 'Montserrat';
+  --my-title-font: 'Montserrat';
   --my-plain-font: system-ui;
   
   /* Reference Font Variables */
-  --md-ref-typeface-brand: var(--my-brand-typeface);
-  --md-ref-typeface-plain: var(--my-plain-typeface);
+  --md-ref-typeface-brand: var(--my-brand-font);
+  --md-ref-typeface-plain: var(--my-plain-font);
   --md-ref-weight-bold: 700;
   --md-ref-weight-medium: 500;
   --md-ref-weight-regular: 400;
 
   /* Global Font Variables */
   --md-sys-typescale-body-font: var(--my-plain-font);
-  --md-sys-typescale-display-font: var(--my-brand-typeface);
+  --md-sys-typescale-display-font: var(--my-brand-font);
   --md-sys-typescale-headline-font: var(--my-headline-font);
   --my-sys-typescale-label-font: var(--my-plain-font);
   --md-sys-typescale-title-font: var(--my-title-font);
